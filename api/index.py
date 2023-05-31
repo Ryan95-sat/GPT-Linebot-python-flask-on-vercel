@@ -59,7 +59,7 @@ def handle_message(event):
 #         chatgpt.add_msg(f"AI:{reply_msg}\n")
         line_bot_api.reply_message(
             event.reply_token,
-            TextSendMessage(text="test test test!!"))
+            TextSendMessage(text="test test test 123!!"))
 
 
 if __name__ == "__main__":
